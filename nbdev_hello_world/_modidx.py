@@ -5,4 +5,8 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://cooperrc.github.io',
                 'git_url': 'https://github.com/cooperrc/nbdev-hello-world',
                 'lib_path': 'nbdev_hello_world'},
-  'syms': {'nbdev_hello_world.core': {'nbdev_hello_world.core.foo': ('core.html#foo', 'nbdev_hello_world/core.py')}}}
+  'syms': { 'nbdev_hello_world.core': {'nbdev_hello_world.core.throw': ('dice.html#throw', 'nbdev_hello_world/core.py')},
+            'nbdev_hello_world.dice': { 'nbdev_hello_world.dice.throw': ('dice.html#throw', 'nbdev_hello_world/dice.py'),
+                                        'nbdev_hello_world.dice.throw.__init__': ('dice.html#throw.__init__', 'nbdev_hello_world/dice.py'),
+                                        'nbdev_hello_world.dice.throw.__repr__': ('dice.html#throw.__repr__', 'nbdev_hello_world/dice.py'),
+                                        'nbdev_hello_world.dice.throw.__str__': ('dice.html#throw.__str__', 'nbdev_hello_world/dice.py')}}}
