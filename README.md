@@ -11,7 +11,7 @@ on the dice and the number of dice thrown.
 ## Install
 
 ``` sh
-conda install -c cooperrc nbdev_hello_world
+pip install nbdev-hello-dice
 ```
 
 ## How to use
@@ -23,7 +23,7 @@ result = throw(6)
 result
 ```
 
-    4 = sum([4])
+    1 = sum([1])
 
 Next, we can throw $\times 2$ dice and look at the sum
 

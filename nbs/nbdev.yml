@@ -2,7 +2,7 @@ project:
   output-dir: _docs
 
 website:
-  title: "nbdev-hello-world"
+  title: "nbdev_hello_dice"
   site-url: "https://cooperrc.github.io/nbdev-hello-world"
   description: "Hello World example setup process for nbdev"
   repo-branch: main
