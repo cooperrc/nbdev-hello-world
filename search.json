@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "nbdev-hello-world",
+    "section": "",
+    "text": "This is a simple dice throwing class that uses NumPy default_rng to build an array of random integers depending upon the number of sides on the dice and the number of dice thrown."
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "nbdev-hello-world",
+    "section": "Install",
+    "text": "Install\npip install nbdev-hello-dice"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "nbdev-hello-world",
+    "section": "How to use",
+    "text": "How to use\nHere, we throw 1 die with 6 sides:\n\nresult = throw(6)\nresult\n\n1 = sum([1])\n\n\nNext, we can throw \\(\\times 2\\) dice and look at the sum\n\nthrow(6, 2)\n\n3 = sum([1 2])\n\n\nThe dice values are stored in an array, as throw(N, inhand).dice as such\n\nresult = throw(6, 4)\nresult.dice\n\narray([2, 1, 4, 6])\n\n\nThe sum of the dice values are saved in throw.(N, inhand).sum as such\n\nresult.sum\n\n13"
+  },
+  {
+    "objectID": "dice.html",
+    "href": "dice.html",
+    "title": "Dice - a random number generator for N-sided dice",
+    "section": "",
+    "text": "source\n\nthrow\n\n throw (N:int, inhand:int=1)\n\nInitialize self. See help(type(self)) for accurate signature.\n\n\n\n\nType\nDefault\nDetails\n\n\n\n\nN\nint\n\nnumber of sides on the dice\n\n\ninhand\nint\n1\nnumber of dice in hand\n\n\n\n\nthrow(N=6, inhand = 13).dice\n\narray([2, 3, 4, 2, 3, 3, 1, 5, 6, 1, 5, 3, 3])"
+  }
+]
